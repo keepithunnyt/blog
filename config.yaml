@@ -1,6 +1,6 @@
 baseURL: https://keepithunnyt.github.io
 languageCode: en-us
-title: Vanilla
+title: KEEPITHUNNYT
 theme: vanilla-bootstrap-hugo-theme
 googleAnalytics: UA-123456789-1
 
@@ -14,26 +14,27 @@ permalinks:
 # The value of pre is the icon name
 menu:
   nav:
-  - name: Home
+  - name: Introduce
     pre: home
-    url: /
+    url: /about/
     weight: 1
   - name: Blog
     pre: edit
-    url: /post/
+    url: /blog/
     weight: 2
   - name: Tags
     pre: tag
     url: /tags/
     weight: 3
-  - name: About
-    pre: smile
-    url: /about/
+  - name: Portpolio
+    pre: mic
+    url: /blog/
     weight: 4
-  - name: RSS
-    pre: rss
-    url: /index.xml
+  - name: Site
+    pre: github
+    url: /site/
     weight: 5
+
 
 params:
   includeBootstrapJs: false
@@ -42,7 +43,7 @@ params:
   dateFormat: Jan 2, 2006
   homeText: Welcome to the Vanilla theme demo. Have a look around. Maybe even eat some ice cream.
   footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
-  hideFooter: false
+  hideFooter: true
   katex: true
 
 markup:
